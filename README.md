@@ -12,6 +12,15 @@ Then, run the development server:
 npm run dev
 ```
 
+If you want to run test, please use:
+```bash
+npm run test:e2e
+```
+To open last HTML report run:
+```bash
+npx playwright show-report
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
